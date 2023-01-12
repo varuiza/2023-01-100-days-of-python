@@ -28,9 +28,9 @@ scissors = '''
 '''
 
 # Write your code below this line 👇
-print("\n------------------------------")
+print("\n-------------------------------")
 print("Let's play Rock Paper Scissors!")
-print("------------------------------\n")
+print("-------------------------------\n")
 
 print("What will you choose?")
 user_choice = input("Type \"rock\", \"paper\" or \"scissors\".\n").lower()
