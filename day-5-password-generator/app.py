@@ -36,6 +36,7 @@ password = ""
 n_characters = n_letters + n_symbols + n_numbers
 for character in range(0, n_characters):
     order = random.randint(0, 2)
+    # print(f"{n_characters}:{order} / {n_letters}:{n_symbols}:{n_numbers}")
     if order == 0 and n_letters > 0:
         password += random.choice(letters)
         n_letters -= 1
@@ -56,6 +57,5 @@ for character in range(0, n_characters):
             password += random.choice(numbers)
             n_numbers -= 1
 
-    print(f"{n_characters} / {n_letters} / {n_symbols} / {n_numbers}")
 
 print(f"Here is your password: {password}")
